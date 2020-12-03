@@ -1,0 +1,361 @@
+@font-face {
+	font-family: "start";
+	src: url("Start.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("Goldman.ttf");
+}
+body{
+	background-color: rgba(0,0,0,0.05);
+}
+#todo{
+	align-content: center;
+	background-image:url("fondazo.jpg");
+	background-size:cover;
+	border-radius: 10px;
+	margin: 2vw 0 1vw 0;
+	min-height: 80vw;
+	overflow: hidden;
+	padding:1%;
+}
+#todo header{
+	align-items: center;
+	background: -webkit-linear-gradient(lightgrey,rgb(245,245,245));
+	border:2px solid grey;
+	border-radius: 5px;
+	display: flex;
+	margin-bottom:1vw;
+	overflow:hidden;
+	padding:2vw;
+}
+#todo header div{
+	text-align: center;
+	color: rgba(0,0,0);
+	float:left;
+	font-family:"start";
+	font-size:5vw;
+	width:80%;
+	opacity:1.5;
+}
+#todo header img{
+	float:left;
+	width:10%;
+	opacity:1;
+}
+#todo nav ol{
+	float:left;
+	margin-bottom: 3vw;
+	padding:1vw;
+	text-align: center;
+	width:100%;
+}
+#todo nav ol li{
+	background: -webkit-linear-gradient(grey, lightgrey);
+	border-radius: 5px;
+	border:5px solid rgba(0,0,0,0.6);
+	color: rgba(0,0,0);
+	display:inline-block;
+	font-family: "start";
+	font-size:1.3vw;
+	padding: 1vw 2vw;
+	text-align: center;
+	overflow:hidden;
+	width:15%;
+}
+#todo nav ol li a{
+	text-decoration: none;
+	color:black;
+}
+#todo h1{
+    font-weight: bold;
+    text-align:center;
+    padding:0.1em;
+    font-size:300%;
+    font-family: Start;
+
+}
+#logo{
+    border:none;
+}
+ol :hover {
+  transform:scale(1.05);
+}
+
+#logo{
+    border:none;
+}
+
+p{
+    font-family: goldman;
+}
+#todo #content{
+	background-color:transparent;
+	float:left;
+	width: 70%;	
+}
+
+#todo #fotos{
+	text-align:center;
+	margin-left:25%;
+	margin-right:30%;
+	width: 80%;
+
+}
+#todo #fotos #columna1 {
+	width: 15%;
+	float: left;
+
+}
+
+#todo #fotos #columna2 {
+	width: 15%;
+	float: left;
+	margin-left: 5%;
+}
+
+#todo #fotos #columna3 {
+	width: 15%;
+	float: left;
+	margin-left: 5%;
+}
+
+#todo #fotos #columna4 {
+	width: 15%;
+	float: left;
+	margin-left: 5%;
+}
+#todo #fotos #columna5 {
+	width: 15%;
+	float: left;
+	margin-left: 5%;
+}
+#todo #fotos #columna6 {
+	width: 15%;
+	float: left;
+	margin-left: 5%;
+}
+
+/*texto de abajo (footer)*/
+#todo #content #a{
+	color:black;
+	float:left;
+	font-family:"goldman";
+	font-size: 1.5vw;
+	text-align:justify;
+	margin-left: 1vw;
+	overflow:hidden;
+	padding-right: 1vw;
+	width: 58%;
+	border-right: 0.3vw solid black;
+	}
+footer{
+	bottom:fixed;
+	text-align: center;
+	font-size:1vw;
+}
+
+
+/* borde de cada imagen */
+
+img{
+	border:solid black 5px;
+	border-radius: 1px;
+}
+
+h1 {
+	font-family: "start";
+	font-size:500%;
+}
+
+#logo{
+    border:none;
+}
+/* borde de cada imagen */
+
+p{
+    font-family: goldman;
+}
+
+#todo1{
+    background-color: rgb(51,51,51);
+    color:white;
+    overflow:hidden;
+}
+#pago{
+    float:left;
+    width: 23%;
+}
+#envios{
+    float:left;
+    width: 23%;
+}
+#info{
+    float:right;
+    width: 50%;
+    font-family:goldman;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 120%;
+    font-family: "start";
+
+
+}
+#pago h2{
+    border-bottom: solid lightgrey 1px;
+    padding-bottom:  0.5em;
+    margin-right: 3em;
+    margin-left: 1em;
+}
+
+#envios h2{
+    border-bottom: solid lightgrey 1px;
+    padding-bottom:  0.5em;
+    margin-right: 1px;
+}
+
+#info h2{
+    text-align: center;
+    border-bottom: solid lightgrey 1px;
+    padding-bottom:  0.5em;
+    text-transform: uppercase;
+}
+#donde{
+    float:left;
+}
+#horario{
+    float:right;
+    margin-right: 1.5em;
+}
+
+#dias{
+    float:left;
+}
+
+#abajo{
+    margin-right: 5em;
+    margin-left: 0.9em;
+    margin-bottom: 0%;
+    margin-top: 0%;
+
+ }
+span{
+    margin-bottom: 1px;
+}
+
+#todo1 img{
+	border:none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.div {
+    position: absolute;
+    width: 200px;
+    height: 100vh;
+    top: 0;
+    left: -220px; 
+    padding-top: 47px;
+    background-color: rgba(29, 33, 32, 1);
+    border-right: 4px solid rgba(114, 126, 3, 1);
+    transition: all .5s ease; 
+}
+
+.item {
+    display: block;
+    width: 96%;
+    margin: 0 auto;
+    line-height: 2;
+    position: relative;
+    border-bottom: .5px solid rgba(59, 62, 61, 1);
+    border-top: .5px solid rgba(59, 62, 61, 1);
+    background-color: transparent;
+    text-align: center;
+    color: rgba(221, 231, 228, 1);
+}
+
+.current:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute; 
+    border-top: 17px solid transparent;
+    border-left: 15px solid #1D2120;
+    border-bottom: 17px solid transparent;
+    top: 0px;
+    right: -15px; 
+    z-index: 4;
+}
+
+.current:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute; 
+    border-top: 16.5px solid transparent;
+    border-left: 17px solid rgba(114, 126, 3, 1);
+    border-bottom: 17px solid transparent;
+    top: .5px;
+    right: -21px;
+    z-index: 1; 
+}
+
+.menu-toogle {
+    position: absolute; 
+    width: 35px;
+    line-height: 1.1;
+    text-align: center;
+    top: 6.5px; 
+    left: 8px;
+    border-radius: 3px;
+    background-color: #142b25;
+    transition: all .5s ease; 
+    z-index: 10;
+}
+    
+.menu-toogle::before {
+    content: ">";
+    font-size: 32px;
+    color: white;
+}
+
+.checkbox {
+    display: none; 
+}
+
+.checkbox:checked ~ .div {
+    left: 0px; 
+    position: fixed; 
+}
+
+
+
+.checkbox:checked ~ .menu-toogle {
+    left: 208px;
+    position: fixed; 
+}
+
+footer{
+    bottom:fixed;
+    text-align: center;
+    font-size:1vw;
+}
+
+#precio{
+    background-color: rgba(52, 235, 52);
+    width:100%;
+    font-family:"Goldman";
+}
+#cursiva{
+    font-size: 2.7vw;
+    padding: 0.3em;
+    text-align: center;
+}
+#centimos{
+    font-size: 2vw;
+
+}

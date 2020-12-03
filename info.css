@@ -1,0 +1,69 @@
+
+
+#todo1{
+	background-color: rgb(51,51,51);
+	color:white;
+	margin-left: 10%;
+	margin-right: 10%;
+	overflow:hidden;
+}
+#pago{
+	float:left;
+	width: 23%;
+}
+#envios{
+	float:left;
+	width: 23%;
+}
+#info{
+	float:right;
+	width: 50%;
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 120%;
+
+}
+#pago h2{
+	border-bottom: solid lightgrey 1px;
+	padding-bottom:  0.5em;
+	margin-right: 3em;
+	margin-left: 1em;
+}
+
+#envios h2{
+	border-bottom: solid lightgrey 1px;
+	padding-bottom:  0.5em;
+	margin-right: 1px;
+}
+
+#info h2{
+	text-align: center;
+	border-bottom: solid lightgrey 1px;
+	padding-bottom:  0.5em;
+	text-transform: uppercase;
+}
+#donde{
+	float:left;
+}
+#horario{
+	float:right;
+	margin-right: 1.5em;
+}
+
+#dias{
+	float:left;
+}
+
+#abajo{
+	margin-right: 5em;
+	margin-left: 0.9em;
+	margin-bottom: 0%;
+	margin-top: 0%;
+
+ }
+span{
+	margin-bottom: 1px;
+}
+

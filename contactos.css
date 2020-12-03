@@ -1,0 +1,171 @@
+@font-face {
+	font-family: "Goldman";
+	src: url("Goldman.ttf");
+}
+@font-face {
+	font-family: "start";
+	src: url("Start.ttf");
+}
+body{
+	background-color: rgba(0,0,0,0.05);
+}
+#todo{
+	align-content: center;
+	background-image:url("fondazo.jpg");
+	background-size:cover;
+	border-radius: 10px;
+	margin: 2vw 0 1vw 0;
+	min-height: 80vw;
+	overflow: hidden;
+	padding:1%;
+}
+#todo header{
+	align-items: center;
+	background: -webkit-linear-gradient(lightgrey,rgb(245,245,245));
+	border-radius: 5px;
+	border:2px solid grey;
+	display: flex;
+	margin-bottom:1vw;
+	overflow:hidden;
+	padding:2vw;
+}
+#todo header div{
+	color: rgba(0,0,0);
+	float:left;
+	font-family:"start";
+	font-size:5vw;
+	opacity:1.5;
+	text-align: center;
+	width:80%;
+}
+#todo header img{
+	float:left;
+	opacity:1;
+	width:10%;
+}
+#todo nav ol{
+	float:left;
+	margin-bottom: 3vw;
+	padding:1vw;
+	text-align: center;
+	width:100%;
+}
+#todo nav ol li{
+	background: -webkit-linear-gradient(grey, lightgrey);
+	border-radius: 5px;
+	border:5px solid rgba(0,0,0,0.6);
+	color: rgba(0,0,0);
+	display:inline-block;
+	font-family: "start";
+	font-size:1.3vw;
+	overflow:hidden;
+	padding: 1vw 2vw;
+	text-align: center;
+	width:15%;
+}
+#todo nav ol li a{
+	color:black;
+	text-decoration: none;
+}
+ol :hover {
+  transform:scale(1.05);
+}
+h1{
+	font-family: "start";
+}
+table{
+	background-color: lightgrey;
+}
+td{
+	font-family: "Goldman";
+}
+#mapa{
+	text-align: center;
+}
+#mapa iframe{
+	height:20vw;
+	width:100%;
+}
+#todo #semifooter{
+	overflow: auto;
+}
+#todo #semifooter #contactos{
+	float:left;
+	margin-top: 9vw;
+}
+#todo #semifooter #redes{
+	float:right;
+	margin-top: 9vw;
+}
+#fantasma{
+	float:none;
+}
+footer{
+    bottom: fixed;
+    text-align: center;
+}
+
+#todo1{
+    background-color: rgb(51,51,51);
+    color:white;
+    overflow:hidden;
+}
+#pago{
+    float:left;
+    width: 23%;
+}
+#envios{
+    float:left;
+    width: 23%;
+}
+#info{
+    float:right;
+    width: 50%;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 120%;
+
+}
+#pago h2{
+    border-bottom: solid lightgrey 1px;
+    padding-bottom:  0.5em;
+    margin-right: 3em;
+    margin-left: 1em;
+}
+
+#envios h2{
+    border-bottom: solid lightgrey 1px;
+    padding-bottom:  0.5em;
+    margin-right: 1px;
+}
+
+#info h2{
+    text-align: center;
+    border-bottom: solid lightgrey 1px;
+    padding-bottom:  0.5em;
+    text-transform: uppercase;
+}
+#donde{
+    float:left;
+}
+#horario{
+    float:right;
+    margin-right: 1.5em;
+}
+
+#dias{
+    float:left;
+}
+
+#abajo{
+    margin-right: 5em;
+    margin-left: 0.9em;
+    margin-bottom: 0%;
+    margin-top: 0%;
+
+ }
+span{
+    margin-bottom: 1px;
+}

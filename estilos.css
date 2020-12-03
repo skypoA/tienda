@@ -1,0 +1,194 @@
+@font-face {
+	font-family: "start";
+	src: url("Start.ttf");
+}
+@font-face {
+	font-family: "Goldman";
+	src: url("Goldman.ttf");
+}
+body{
+	background-color: rgba(0,0,0,0.05);
+}
+#todo{
+	align-content: center;
+	background-image:url("fondazo.jpg");
+	background-size:cover;
+	border-radius: 10px;
+	margin: 2vw 0 1vw 0;
+	min-height: 80vw;
+	overflow: hidden;
+	padding:1%;
+}
+#todo header{
+	align-items: center;
+	background: -webkit-linear-gradient(lightgrey,rgb(245,245,245));
+	border:2px solid grey;
+	border-radius: 5px;
+	display: flex;
+	margin-bottom:1vw;
+	overflow:hidden;
+	padding:2vw;
+}
+#todo header div{
+	text-align: center;
+	color: rgba(0,0,0);
+	float:left;
+	font-family:"start";
+	font-size:5vw;
+	width:80%;
+	opacity:1.5;
+}
+#todo header img{
+	float:left;
+	width:10%;
+	opacity:1;
+}
+#todo nav ol{
+	float:left;
+	margin-bottom: 3vw;
+	padding:1vw;
+	text-align: center;
+	width:100%;
+}
+#todo nav ol li{
+	background: -webkit-linear-gradient(grey, lightgrey);
+	background-color: red;
+	border-radius: 5px;
+	border:5px solid rgba(0,0,0,0.6);
+	color: rgba(0,0,0);
+	display:inline-block;
+	font-family: "start";
+	font-size:1.3vw;
+	padding: 1vw 2vw;
+	text-align: center;
+	overflow:hidden;
+	width:15%;
+}
+ol :hover {
+  transform:scale(1.05);
+}
+#todo nav ol li a{
+	text-decoration: none;
+	color:black;
+}
+#todo #content{
+	background-color:transparent;
+	float:left;
+	width: 70%;	
+}
+#todo #content #a{
+	color:black;
+	float:left;
+	font-family:"Goldman";
+	font-size: 1.5vw;
+	text-align:justify;
+	margin-left: 1vw;
+	overflow:hidden;
+	padding-right: 1vw;
+	width: 58%;
+	border-right: 0.3vw solid black;
+}
+#todo #content #a img{
+ 	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top:5vw;
+ 	width: 100%;
+}
+#todo #content #b img{
+	margin-bottom: 2vw;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-top:5vw;
+ 	float:right;
+ 	width:50%;
+}
+#todo #content #b{
+	color:black;
+	float:right;
+	font-family:"Goldman";
+	font-size: 1.3vw;
+	margin-right: 1vw;
+	margin-top:4vw;
+	text-align:justify;
+	width: 35%;
+}
+#todo aside{
+	background-color:lightgrey;
+	border:1px solid black;
+	font-family:"Goldman";
+	font-size:1vw;
+	float:right;
+	overflow:hidden;
+	padding:2vw;
+	width: 20%;
+}
+footer{
+	bottom:fixed;
+	text-align: center;
+	font-size:1vw;
+}
+#todo1{
+	background-color: rgb(51,51,51);
+	color:white;
+	margin: 2vw 0 1vw 0;
+	overflow:hidden;
+	font-size: 1.2vw;
+}
+#pago{
+	float:left;
+	width: 23%;
+}
+#envios{
+	float:left;
+	width: 23%;
+}
+#info{
+	float:right;
+	width: 50%;
+	font-family: goldman;
+}
+h2{
+	text-transform: uppercase;
+	font-size: 1.2vw;
+	font-family: "start";
+}
+#pago h2{
+	border-bottom: solid lightgrey 1px;
+	padding-bottom:  0.5rem;
+	margin-right: 3rem;
+	margin-left: 1rem;
+}
+#envios h2{
+	border-bottom: solid lightgrey 1px;
+	padding-bottom:  0.5rem;
+	margin-right: 1px;
+}
+#info h2{
+	text-align: center;
+	border-bottom: solid lightgrey 1px;
+	padding-bottom:  0.5rem;
+	text-transform: uppercase;
+}
+#donde{
+	float:left;
+}
+#horario{
+	float:right;
+	margin-right: 1.5rem;
+}
+#dias{
+	float:left;
+}
+#abajo{
+	margin-right: 5rem;
+	margin-left: 0.9rem;
+	margin-bottom: 0%;
+	margin-top: 0%;
+}
+span{
+	margin-bottom: 1px;
+}
+#imagenes{
+	size: 5vw;
+}
